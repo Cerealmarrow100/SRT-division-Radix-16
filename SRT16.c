@@ -229,7 +229,7 @@ int main(void) {
 
 
     int valid = 1;
-    for (uint64_t i = 1; (i < UINT64_MAX) && (i != 0); i+=(rand()&0xFFFFFFFF)) { //This runs through every fucking possible number.
+    for (uint64_t i = 1; (i < UINT64_MAX) && (i != 0); i+=(rand()&0xFFFFFFFF)) {
             dividend_input = i;
             divisor_input = rand()|1;
 
