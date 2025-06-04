@@ -192,7 +192,7 @@ int main(void) {
     scanf("%llu",&dividend_input);
 
     /*
-    SRT test: unsigned divide with our algorithm, then use actual divison and modulo and compare to test correctness
+    SRT test: unsigned divide with our algorithm, then use actual division and modulo and compare to test correctness
     TODO: more testing so the divide function can be used instead.
     TODO: for some reason the inputs only work in that order. Reversing the printf scanf order makes the dividend input zero?
     */
